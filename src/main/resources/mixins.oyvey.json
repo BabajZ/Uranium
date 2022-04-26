@@ -21,6 +21,8 @@
     "MixinWorld",
     "MixinAbstractHorse",
     "MixinRenderItem",
-    "ViewModelMixin"
+    "ViewModelMixin",
+    "MixinRenderEntityItem",
+    "MixinRenderer"
   ]
 }

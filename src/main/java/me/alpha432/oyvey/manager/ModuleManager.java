@@ -16,6 +16,7 @@ import me.alpha432.oyvey.features.modules.misc.*;
 import me.alpha432.oyvey.features.modules.movement.*;
 import me.alpha432.oyvey.features.modules.player.*;
 import me.alpha432.oyvey.features.modules.render.*;
+import me.alpha432.oyvey.features.modules.render.ItemPhysics.ItemPhysics;
 import me.alpha432.oyvey.features.modules.render.PigPOV.PigPOV;
 import me.alpha432.oyvey.features.modules.render.ToolTips;
 import me.alpha432.oyvey.features.modules.render.ViewModel.ItemViewModel;
@@ -160,6 +161,7 @@ public class ModuleManager
         this.modules.add(new GlintModify());
         this.modules.add(new Criticals());
         this.modules.add(new AntiPackets());
+        this.modules.add(new ItemPhysics());
     }
 
     public Module getModuleByName(String name) {
