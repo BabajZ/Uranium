@@ -158,6 +158,7 @@ public class ModuleManager
         this.modules.add(new AntiBot());
         this.modules.add(new BetterFPS());
         this.modules.add(new GlintModify());
+        this.modules.add(new Criticals());
     }
 
     public Module getModuleByName(String name) {
