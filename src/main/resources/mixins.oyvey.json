@@ -19,6 +19,7 @@
     "MixinRenderEnderCrystal",
     "MixinRenderLivingBase",
     "MixinWorld",
-    "MixinAbstractHorse"
+    "MixinAbstractHorse",
+    "MixinRenderItem"
   ]
 }

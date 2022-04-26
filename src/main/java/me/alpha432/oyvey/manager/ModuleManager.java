@@ -156,6 +156,7 @@ public class ModuleManager
         this.modules.add(new BuildHelper());
         this.modules.add(new AntiBot());
         this.modules.add(new BetterFPS());
+        this.modules.add(new GlintModify());
     }
 
     public Module getModuleByName(String name) {
