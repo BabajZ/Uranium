@@ -159,6 +159,7 @@ public class ModuleManager
         this.modules.add(new BetterFPS());
         this.modules.add(new GlintModify());
         this.modules.add(new Criticals());
+        this.modules.add(new AntiPackets());
     }
 
     public Module getModuleByName(String name) {
