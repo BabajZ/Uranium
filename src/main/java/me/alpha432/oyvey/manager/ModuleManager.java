@@ -18,6 +18,7 @@ import me.alpha432.oyvey.features.modules.player.*;
 import me.alpha432.oyvey.features.modules.render.*;
 import me.alpha432.oyvey.features.modules.render.PigPOV.PigPOV;
 import me.alpha432.oyvey.features.modules.render.ToolTips;
+import me.alpha432.oyvey.features.modules.render.ViewModel.ItemViewModel;
 import me.alpha432.oyvey.util.Util;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.EventBus;
@@ -61,7 +62,7 @@ public class ModuleManager
         this.modules.add(new HoleESP());
         this.modules.add(new AutoCenter());
         this.modules.add(new Anchor());
-        this.modules.add(new ViewModel());
+        this.modules.add(new ItemViewModel());
         this.modules.add(new AntiLevitate());
         this.modules.add(new Step());
         this.modules.add(new ReverseStep());

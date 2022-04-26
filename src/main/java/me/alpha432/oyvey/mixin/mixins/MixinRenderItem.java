@@ -2,13 +2,13 @@ package me.alpha432.oyvey.mixin.mixins;
 
 import me.alpha432.oyvey.OyVey;
 import me.alpha432.oyvey.features.modules.render.GlintModify;
+import me.alpha432.oyvey.features.modules.render.ViewModel.ItemViewModel;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderItem;
 import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.eventhandler.Event;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;

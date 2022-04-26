@@ -20,6 +20,7 @@
     "MixinRenderLivingBase",
     "MixinWorld",
     "MixinAbstractHorse",
-    "MixinRenderItem"
+    "MixinRenderItem",
+    "ViewModelMixin"
   ]
 }
