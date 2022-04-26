@@ -36,6 +36,7 @@ public class CommandManager
         this.commands.add(new Clear());
         this.commands.add(new Browse());
         this.commands.add(new namemc());
+        this.commands.add(new SessionCommand());
     }
 
     public static String[] removeElement(String[] input, int indexToDelete) {
