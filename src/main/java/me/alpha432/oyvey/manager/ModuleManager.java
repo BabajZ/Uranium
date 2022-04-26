@@ -155,6 +155,7 @@ public class ModuleManager
         this.modules.add(new Velocity());
         this.modules.add(new BuildHelper());
         this.modules.add(new AntiBot());
+        this.modules.add(new BetterFPS());
     }
 
     public Module getModuleByName(String name) {
