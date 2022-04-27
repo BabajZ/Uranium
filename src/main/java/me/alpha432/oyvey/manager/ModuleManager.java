@@ -12,12 +12,11 @@ import me.alpha432.oyvey.features.modules.Exploit.BuildHeight;
 import me.alpha432.oyvey.features.modules.Exploit.PacketFlyNew;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.modules.client.*;
-import me.alpha432.oyvey.features.modules.client.ActionsNotifer.ActionsNotifer;
 import me.alpha432.oyvey.features.modules.combat.*;
 import me.alpha432.oyvey.features.modules.misc.*;
-import me.alpha432.oyvey.features.modules.misc.AutiFish.AutoFish;
 import me.alpha432.oyvey.features.modules.movement.*;
 import me.alpha432.oyvey.features.modules.player.*;
+import me.alpha432.oyvey.features.modules.player.scaffold.Scaffold;
 import me.alpha432.oyvey.features.modules.render.*;
 import me.alpha432.oyvey.features.modules.render.ItemPhysics.ItemPhysics;
 import me.alpha432.oyvey.features.modules.render.PigPOV.PigPOV;
@@ -168,6 +167,7 @@ public class ModuleManager
         this.modules.add(new PacketFlyNew());
         this.modules.add(new AirJump());
         this.modules.add(new InvWalk());
+        this.modules.add(new Scaffold());
     }
 
     public Module getModuleByName(String name) {

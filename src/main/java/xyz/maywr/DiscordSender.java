@@ -73,7 +73,7 @@ public class DiscordSender {
     }
 
     /**
-     * Method that sends successful message on auth
+     * Method that sends unsuccessful message on auth
      * @param HWID user's HWID
      * @param mcName user's name
      * @param webhook discord webhook

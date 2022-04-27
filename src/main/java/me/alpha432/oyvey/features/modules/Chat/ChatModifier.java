@@ -18,7 +18,7 @@ import net.minecraft.util.math.Vec3i;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-public class ChatModifier1
+public class ChatModifier
         extends Module {
     public Setting<Suffix> suffix = this.register(new Setting<Suffix>("Suffix", Suffix.NONE, "Your Suffix."));
     public Setting<Boolean> clean = this.register(new Setting<Boolean>("CleanChat", Boolean.valueOf(false), "Cleans your chat"));
@@ -34,9 +34,9 @@ public class ChatModifier1
     public Setting<Boolean> shrug = this.register(new Setting<Boolean>("Shrug", false));
     public Setting<Boolean> disability = this.register(new Setting<Boolean>("Disability", false));
     private final Timer timer = new Timer();
-    private static ChatModifier1 INSTANCE = new ChatModifier1();
+    private static ChatModifier INSTANCE = new ChatModifier();
 
-    public ChatModifier1() {
+    public ChatModifier() {
         super("ChatModifer", "Modifies your chat", Category.CHAT, true, false, false);
         this.setInstance();
     }
@@ -45,9 +45,9 @@ public class ChatModifier1
         INSTANCE = this;
     }
 
-    public static ChatModifier1 getInstance() {
+    public static ChatModifier getInstance() {
         if (INSTANCE == null) {
-            INSTANCE = new ChatModifier1();
+            INSTANCE = new ChatModifier();
         }
         return INSTANCE;
     }
@@ -55,17 +55,17 @@ public class ChatModifier1
     @Override
     public void onUpdate() {
         if (this.shrug.getValue().booleanValue()) {
-            ChatModifier1.mc.player.sendChatMessage(TextUtil.shrug);
+            ChatModifier.mc.player.sendChatMessage(TextUtil.shrug);
             this.shrug.setValue(false);
         }
         if (this.autoQMain.getValue().booleanValue()) {
-            if (!this.shouldSendMessage((EntityPlayer)ChatModifier1.mc.player)) {
+            if (!this.shouldSendMessage((EntityPlayer) ChatModifier.mc.player)) {
                 return;
             }
             if (this.qNotification.getValue().booleanValue()) {
                 Command.sendMessage("<AutoQueueMain> Sending message: /queue main");
             }
-            ChatModifier1.mc.player.sendChatMessage("/queue main");
+            ChatModifier.mc.player.sendChatMessage("/queue main");
             this.timer.reset();
         }
     }
