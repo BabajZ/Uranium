@@ -164,6 +164,7 @@ public class ModuleManager
         this.modules.add(new ItemPhysics());
         this.modules.add(new EntitySpeed());
         this.modules.add(new PacketFlyNew());
+        this.modules.add(new AirJump());
     }
 
     public Module getModuleByName(String name) {
