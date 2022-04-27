@@ -4,6 +4,7 @@ import com.mojang.realmsclient.gui.ChatFormatting;
 import me.alpha432.oyvey.features.Feature;
 import me.alpha432.oyvey.features.command.Command;
 import me.alpha432.oyvey.features.command.commands.*;
+import me.alpha432.oyvey.features.modules.misc.AutiFish.WebhookCommand;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

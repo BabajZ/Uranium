@@ -9,6 +9,7 @@ import net.minecraft.client.multiplayer.PlayerControllerMP;
 import net.minecraft.crash.CrashReport;
 import net.minecraftforge.common.MinecraftForge;
 import org.lwjgl.input.Keyboard;
+import org.lwjgl.input.Mouse;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -36,6 +37,7 @@ public abstract class MixinMinecraft {
             MinecraftForge.EVENT_BUS.post(event);
         }
     }
+
 
     private void unload() {
         OyVey.LOGGER.info("Initiated client shutdown.");
