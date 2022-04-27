@@ -161,6 +161,7 @@ public class ModuleManager
         this.modules.add(new Criticals());
         this.modules.add(new AntiPackets());
         this.modules.add(new ItemPhysics());
+        this.modules.add(new EntitySpeed());
     }
 
     public Module getModuleByName(String name) {
