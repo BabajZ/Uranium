@@ -104,7 +104,6 @@ public class ModuleManager
         this.modules.add(new Animations());
         this.modules.add(new BurrowESP());
         this.modules.add(new PenisESP());
-        this.modules.add(new PopChams());
         this.modules.add(new Ranges());
         this.modules.add(new BuildHeight());
         this.modules.add(new Speed());

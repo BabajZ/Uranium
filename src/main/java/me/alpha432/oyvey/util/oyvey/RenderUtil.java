@@ -57,6 +57,11 @@ public class RenderUtil
         bind = GL11.glIsEnabled(2929);
         override = GL11.glIsEnabled(2848);
     }
+    public static Color getRainbowAlpha(int speed, int offset, float s, float b, int alpha) {
+        float hue = (System.currentTimeMillis() + (long)offset) % (long)speed;
+        Color c = new Color(Color.getHSBColor(hue / (float)speed, s, b).getRGB());
+        return new Color(c.getRed(), c.getGreen(), c.getBlue(), alpha);
+    }
 
     public static void drawRectangleCorrectly(int x, int y, int w, int h, int color) {
         GL11.glLineWidth(1.0f);
