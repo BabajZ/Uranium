@@ -55,7 +55,7 @@ public class Anchor extends Module {
         return new Vec3d(x, y, z);
     }
 
-    @SubscribeEvent
+    @Override
     public void onUpdate() {
         if (Util.mc.world == null) {
             return;

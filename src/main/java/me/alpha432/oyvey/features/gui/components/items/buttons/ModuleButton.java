@@ -25,7 +25,7 @@ public class ModuleButton
 
 
     public ModuleButton(Module module) {
-        super("+ " + module.getName());
+        super(""+module.getName());
         this.module = module;
         this.initSettings();
     }
