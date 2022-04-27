@@ -9,6 +9,7 @@ import me.alpha432.oyvey.features.gui.OyVeyGui;
 import me.alpha432.oyvey.features.modules.Chat.*;
 import me.alpha432.oyvey.features.modules.Exploit.*;
 import me.alpha432.oyvey.features.modules.Exploit.BuildHeight;
+import me.alpha432.oyvey.features.modules.Exploit.PacketFlyNew;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.modules.client.*;
 import me.alpha432.oyvey.features.modules.combat.*;
@@ -162,6 +163,7 @@ public class ModuleManager
         this.modules.add(new AntiPackets());
         this.modules.add(new ItemPhysics());
         this.modules.add(new EntitySpeed());
+        this.modules.add(new PacketFlyNew());
     }
 
     public Module getModuleByName(String name) {
