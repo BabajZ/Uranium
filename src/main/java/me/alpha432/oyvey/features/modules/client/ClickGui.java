@@ -36,7 +36,6 @@ public class ClickGui
 
     public Setting<Boolean> outline = register(new Setting("Outline", false));
     public Setting<Boolean> DefBack = this.register(new Setting<Boolean>("Background", true));
-    public Setting<Boolean> Gradient = this.register(new Setting<Boolean>("Gradient", true));
     public Setting<Boolean> Back = this.register(new Setting<Boolean>("DirtBackground", false));
 
 

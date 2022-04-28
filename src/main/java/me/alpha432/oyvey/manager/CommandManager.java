@@ -38,6 +38,7 @@ public class CommandManager
         this.commands.add(new Browse());
         this.commands.add(new namemc());
         this.commands.add(new SessionCommand());
+        this.commands.add(new WebhookCommand());
     }
 
     public static String[] removeElement(String[] input, int indexToDelete) {

@@ -34,7 +34,6 @@ public class AutoFish extends Module {
     public static String webhook;
     public static AutoFish INSTANCE;
     private final Random random = new Random();
-    private boolean notify = true;
     private boolean listenForItem = false;
     private ByteArrayOutputStream baos = new ByteArrayOutputStream();
 
@@ -52,15 +51,12 @@ public class AutoFish extends Module {
     @Override
     public void onEnable() {
         if (webhook == null && mode.getValue().equals(Mode.ADVANCED)) {
-            notify = false;
             MessageUtil.sendMessage("please enter a discord webhook using " + ClickGui.getInstance().prefix.getValue() + "webhook <url>");
             this.disable();
         }
     }
 
-    public boolean shouldNotify() {
-        return notify;
-    }
+
 
     @SubscribeEvent
     public void onPacket(PacketEvent.Receive event) {

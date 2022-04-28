@@ -7,9 +7,11 @@ import me.alpha432.oyvey.features.gui.components.items.Item;
 import me.alpha432.oyvey.features.gui.components.items.buttons.ModuleButton;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.modules.client.ClickGui;
+import me.alpha432.oyvey.features.modules.client.GuiGradient;
 import me.alpha432.oyvey.util.oyvey.RenderUtil;
 import me.alpha432.oyvey.util.oyvey.TextUtil;
 import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.gui.ScaledResolution;
 import org.lwjgl.input.Mouse;
 
 import java.awt.*;
@@ -85,9 +87,27 @@ public class OyVeyGui
         this.drawBackground(1); }
         if(ClickGui.getInstance().DefBack.getValue()){
         this.drawDefaultBackground();}
-        if(ClickGui.getInstance().Gradient.getValue()){
-        this.drawGradientRect(0,0,mc.displayWidth,mc.displayHeight,new Color(0,0,0,0).getRGB(), RenderUtil.generateRainbowFadingColor(0,true));}
-        this.components.forEach(components -> components.drawScreen(mouseX, mouseY, partialTicks));
+
+        ScaledResolution sr = new ScaledResolution(mc);
+        GuiGradient gradient = GuiGradient.getInstance();
+        if (gradient.isEnabled()) {
+            drawGradientRect(0, 0, sr.getScaledWidth(), sr.getScaledHeight(),
+                    gradient.rainbow1.getValue() ? RenderUtil.generateRainbowFadingColor(1, true) :
+                            new Color(gradient.red1.getValue(),
+                                    gradient.green1.getValue(),
+                                    gradient.blue1.getValue(),
+                                    gradient.alpha1.getValue()).getRGB(),
+                    gradient.rainbow2.getValue() ? RenderUtil.generateRainbowFadingColor(2, true) :
+                            new Color(gradient.red2.getValue(),
+                                    gradient.green2.getValue(),
+                                    gradient.blue2.getValue(),
+                                    gradient.alpha2.getValue()).getRGB());
+        }
+
+
+
+
+       this.components.forEach(components -> components.drawScreen(mouseX, mouseY, partialTicks));
     }
 
     public void mouseClicked(int mouseX, int mouseY, int clickedButton) {
