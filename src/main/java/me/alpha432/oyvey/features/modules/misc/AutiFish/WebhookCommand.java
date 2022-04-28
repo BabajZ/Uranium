@@ -1,8 +1,7 @@
 package me.alpha432.oyvey.features.modules.misc.AutiFish;
 
 import me.alpha432.oyvey.features.command.Command;
-import me.alpha432.oyvey.features.modules.misc.AutiFish.AutoFish;
-import me.alpha432.oyvey.util.oyvey.MessageUtil;
+import me.alpha432.oyvey.util.Client.MessageUtil;
 
 import java.awt.*;
 

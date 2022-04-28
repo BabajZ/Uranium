@@ -8,7 +8,7 @@ import me.alpha432.oyvey.event.events.PacketEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.modules.client.ClickGui;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.MessageUtil;
+import me.alpha432.oyvey.util.Client.MessageUtil;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemFishFood;

@@ -6,7 +6,11 @@ package me.alpha432.oyvey.features.modules.combat;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.*;
+import me.alpha432.oyvey.util.Block.BlockUtil;
+import me.alpha432.oyvey.util.Block.TestUtil;
+import me.alpha432.oyvey.util.Player.InventoryUtil;
+import me.alpha432.oyvey.util.World.EntityUtil;
+import me.alpha432.oyvey.util.World.Timer;
 import net.minecraft.block.BlockEnderChest;
 import net.minecraft.block.BlockObsidian;
 import net.minecraft.block.material.Material;

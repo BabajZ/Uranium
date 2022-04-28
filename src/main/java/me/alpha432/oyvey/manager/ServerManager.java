@@ -2,7 +2,7 @@ package me.alpha432.oyvey.manager;
 
 import me.alpha432.oyvey.features.Feature;
 import me.alpha432.oyvey.features.modules.client.HUD;
-import me.alpha432.oyvey.util.oyvey.Timer;
+import me.alpha432.oyvey.util.World.Timer;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;

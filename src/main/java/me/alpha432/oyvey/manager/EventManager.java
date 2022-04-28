@@ -8,7 +8,7 @@ import me.alpha432.oyvey.features.Feature;
 import me.alpha432.oyvey.features.command.Command;
 import me.alpha432.oyvey.features.modules.client.HUD;
 import me.alpha432.oyvey.features.modules.misc.PopCounter;
-import me.alpha432.oyvey.util.oyvey.Timer;
+import me.alpha432.oyvey.util.World.Timer;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.EntityPlayer;

@@ -2,7 +2,7 @@ package me.alpha432.oyvey.features.command.commands;
 
 import com.mojang.realmsclient.gui.ChatFormatting;
 import me.alpha432.oyvey.features.command.Command;
-import me.alpha432.oyvey.util.oyvey.PlayerUtil;
+import me.alpha432.oyvey.util.Player.PlayerUtil;
 
 import java.util.List;
 import java.util.UUID;

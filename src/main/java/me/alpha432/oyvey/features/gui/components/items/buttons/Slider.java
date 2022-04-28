@@ -6,7 +6,7 @@ import me.alpha432.oyvey.features.gui.OyVeyGui;
 import me.alpha432.oyvey.features.gui.components.Component;
 import me.alpha432.oyvey.features.modules.client.ClickGui;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.RenderUtil;
+import me.alpha432.oyvey.util.Block.Render.RenderUtil;
 import org.lwjgl.input.Mouse;
 
 public class Slider

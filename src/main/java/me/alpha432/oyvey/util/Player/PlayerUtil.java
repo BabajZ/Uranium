@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.Player;
 
 import com.google.common.collect.Lists;
 import com.google.gson.JsonArray;
@@ -14,7 +14,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import org.apache.commons.io.IOUtils;
 
 import javax.net.ssl.HttpsURLConnection;
-import java.awt.*;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;

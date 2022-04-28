@@ -6,7 +6,7 @@ import java.util.List;
 import me.alpha432.oyvey.event.events.PlayerLivingUpdateEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.BlockUtil;
+import me.alpha432.oyvey.util.Block.BlockUtil;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;

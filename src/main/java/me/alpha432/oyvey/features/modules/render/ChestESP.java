@@ -2,7 +2,7 @@ package me.alpha432.oyvey.features.modules.render;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.RenderUtils;
+import me.alpha432.oyvey.util.Block.Render.RenderUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;

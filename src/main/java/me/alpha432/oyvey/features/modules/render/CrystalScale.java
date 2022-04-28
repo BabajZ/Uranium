@@ -1,12 +1,11 @@
 package me.alpha432.oyvey.features.modules.render;
 
-import me.alpha432.oyvey.event.events.PacketEvent;
 import me.alpha432.oyvey.event.events.PacketEventShit;
 import me.alpha432.oyvey.event.events.RenderEntityModelEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.modules.client.Colors;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.EntityUtil;
+import me.alpha432.oyvey.util.World.EntityUtil;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityEnderCrystal;

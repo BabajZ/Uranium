@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.Client;
 
 import com.mojang.realmsclient.gui.ChatFormatting;
 import me.alpha432.oyvey.features.modules.Module;

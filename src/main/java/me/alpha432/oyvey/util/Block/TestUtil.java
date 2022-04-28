@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.Block;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;

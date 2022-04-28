@@ -2,8 +2,8 @@ package me.alpha432.oyvey.features.modules.player;
 
 
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.PlayerUtil;
-import me.alpha432.oyvey.util.oyvey.PlayerUtil3;
+import me.alpha432.oyvey.util.Player.PlayerUtil;
+import me.alpha432.oyvey.util.Player.PlayerUtil3;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.AbstractHorse;
 import net.minecraft.entity.passive.EntityTameable;

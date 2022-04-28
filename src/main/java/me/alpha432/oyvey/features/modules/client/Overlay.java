@@ -5,7 +5,7 @@ import me.alpha432.oyvey.event.events.Render2DEvent;
 import me.alpha432.oyvey.features.Feature;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.ColorUtil;
+import me.alpha432.oyvey.util.Block.Render.ColorUtil;
 import me.alpha432.oyvey.util.Util;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.GlStateManager;

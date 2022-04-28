@@ -6,11 +6,10 @@ import me.alpha432.oyvey.features.gui.OyVeyGui;
 import me.alpha432.oyvey.features.gui.components.items.Item;
 import me.alpha432.oyvey.features.gui.components.items.buttons.Button;
 import me.alpha432.oyvey.features.modules.client.ClickGui;
-import me.alpha432.oyvey.util.oyvey.ColorUtil;
-import me.alpha432.oyvey.util.oyvey.RenderUtil;
+import me.alpha432.oyvey.util.Block.Render.ColorUtil;
+import me.alpha432.oyvey.util.Block.Render.RenderUtil;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.Gui;
-import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.init.SoundEvents;
 
 import java.util.ArrayList;

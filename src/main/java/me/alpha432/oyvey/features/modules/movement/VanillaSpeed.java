@@ -3,7 +3,7 @@ package me.alpha432.oyvey.features.modules.movement;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.MathUtil;
+import me.alpha432.oyvey.util.Client.MathUtil;
 
 
 public class VanillaSpeed

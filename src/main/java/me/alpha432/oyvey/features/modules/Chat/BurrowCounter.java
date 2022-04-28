@@ -2,7 +2,7 @@ package me.alpha432.oyvey.features.modules.Chat;
 
 import me.alpha432.oyvey.features.command.Command;
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.TextUtil;
+import me.alpha432.oyvey.util.Client.TextUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;

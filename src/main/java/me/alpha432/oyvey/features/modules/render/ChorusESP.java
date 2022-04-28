@@ -4,9 +4,9 @@ import me.alpha432.oyvey.event.events.ChorusEvent;
 import me.alpha432.oyvey.event.events.Render3DEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.ColorUtil;
-import me.alpha432.oyvey.util.oyvey.RenderUtil;
-import me.alpha432.oyvey.util.oyvey.TimerUtil;
+import me.alpha432.oyvey.util.Block.Render.ColorUtil;
+import me.alpha432.oyvey.util.Block.Render.RenderUtil;
+import me.alpha432.oyvey.util.World.TimerUtil;
 
 
 import java.awt.Color;

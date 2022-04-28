@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.Player;
 
 import me.alpha432.oyvey.util.Util;
 import net.minecraft.enchantment.EnchantmentHelper;

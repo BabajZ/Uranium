@@ -5,7 +5,7 @@ import java.util.Objects;
 import me.alpha432.oyvey.event.events.PacketEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.TimerUtil;
+import me.alpha432.oyvey.util.World.TimerUtil;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.network.Packet;
 import net.minecraft.network.play.client.CPacketPlayer;

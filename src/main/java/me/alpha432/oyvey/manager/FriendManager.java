@@ -2,7 +2,7 @@ package me.alpha432.oyvey.manager;
 
 import me.alpha432.oyvey.features.Feature;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.PlayerUtil;
+import me.alpha432.oyvey.util.Player.PlayerUtil;
 import net.minecraft.entity.player.EntityPlayer;
 
 import java.util.ArrayList;

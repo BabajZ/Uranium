@@ -3,8 +3,8 @@ package me.alpha432.oyvey.features.modules.combat;
 
 import me.alpha432.oyvey.OyVey;
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.EntityUtil;
-import me.alpha432.oyvey.util.oyvey.MathUtil;
+import me.alpha432.oyvey.util.World.EntityUtil;
+import me.alpha432.oyvey.util.Client.MathUtil;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBow;

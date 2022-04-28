@@ -3,7 +3,7 @@ package me.alpha432.oyvey.features.modules.Chat;
 import me.alpha432.oyvey.features.command.Command;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.TextUtil;
+import me.alpha432.oyvey.util.Client.TextUtil;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.EntityChicken;
 import net.minecraft.entity.passive.EntityCow;

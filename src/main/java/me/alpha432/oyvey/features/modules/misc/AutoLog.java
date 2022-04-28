@@ -4,7 +4,7 @@ import me.alpha432.oyvey.OyVey;
 import me.alpha432.oyvey.event.events.PacketEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.MathUtil;
+import me.alpha432.oyvey.util.Client.MathUtil;
 import net.minecraft.init.Blocks;
 import net.minecraft.network.play.server.SPacketBlockChange;
 import net.minecraft.network.play.server.SPacketDisconnect;

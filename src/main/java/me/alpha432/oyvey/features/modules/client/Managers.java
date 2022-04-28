@@ -4,7 +4,7 @@ import me.alpha432.oyvey.OyVey;
 import me.alpha432.oyvey.event.events.ClientEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.TextUtil;
+import me.alpha432.oyvey.util.Client.TextUtil;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class Managers

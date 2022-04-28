@@ -2,7 +2,7 @@ package me.alpha432.oyvey.features.modules.player;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.EntityUtil;
+import me.alpha432.oyvey.util.World.EntityUtil;
 
 public class TickShift
         extends Module {

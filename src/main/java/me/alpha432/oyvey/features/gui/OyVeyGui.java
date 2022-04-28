@@ -8,8 +8,7 @@ import me.alpha432.oyvey.features.gui.components.items.buttons.ModuleButton;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.modules.client.ClickGui;
 import me.alpha432.oyvey.features.modules.client.GuiGradient;
-import me.alpha432.oyvey.util.oyvey.RenderUtil;
-import me.alpha432.oyvey.util.oyvey.TextUtil;
+import me.alpha432.oyvey.util.Block.Render.RenderUtil;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.ScaledResolution;
 import org.lwjgl.input.Mouse;
@@ -103,10 +102,6 @@ public class OyVeyGui
                                     gradient.blue2.getValue(),
                                     gradient.alpha2.getValue()).getRGB());
         }
-
-
-
-
        this.components.forEach(components -> components.drawScreen(mouseX, mouseY, partialTicks));
     }
 

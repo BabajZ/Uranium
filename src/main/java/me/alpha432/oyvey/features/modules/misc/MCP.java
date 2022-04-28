@@ -2,7 +2,7 @@ package me.alpha432.oyvey.features.modules.misc;
 
 
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.InventoryUtil;
+import me.alpha432.oyvey.util.Player.InventoryUtil;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemEnderPearl;
 import net.minecraft.util.EnumHand;

@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.World;
 
 import me.alpha432.oyvey.MinecraftInstance;
 import me.alpha432.oyvey.features.command.Command;

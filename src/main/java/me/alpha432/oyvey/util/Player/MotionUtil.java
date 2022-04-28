@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.Player;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.EntityLivingBase;

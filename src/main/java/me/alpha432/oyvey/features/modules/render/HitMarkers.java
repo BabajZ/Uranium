@@ -3,7 +3,7 @@ package me.alpha432.oyvey.features.modules.render;
 import me.alpha432.oyvey.event.events.Render2DEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.RenderUtil;
+import me.alpha432.oyvey.util.Block.Render.RenderUtil;
 import net.minecraft.util.*;
 import net.minecraftforge.common.*;
 import net.minecraftforge.event.entity.player.*;

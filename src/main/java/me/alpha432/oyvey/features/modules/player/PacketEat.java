@@ -1,7 +1,7 @@
 package me.alpha432.oyvey.features.modules.player;
 
-import me.alpha432.oyvey.util.oyvey.InventoryUtil;
-import me.alpha432.oyvey.util.oyvey.PlayerUtil;
+import me.alpha432.oyvey.util.Player.InventoryUtil;
+import me.alpha432.oyvey.util.Player.PlayerUtil;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;

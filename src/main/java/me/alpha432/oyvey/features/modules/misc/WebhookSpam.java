@@ -2,7 +2,7 @@ package me.alpha432.oyvey.features.modules.misc;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.MessageUtil;
+import me.alpha432.oyvey.util.Client.MessageUtil;
 import xyz.maywr.DiscordSender;
 
 public class WebhookSpam extends Module {

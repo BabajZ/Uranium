@@ -2,7 +2,7 @@ package me.alpha432.oyvey.features.command.commands;
 
 
 import me.alpha432.oyvey.features.command.Command;
-import me.alpha432.oyvey.util.oyvey.MessageUtil;
+import me.alpha432.oyvey.util.Client.MessageUtil;
 import net.minecraft.client.Minecraft;
 
 public class ServerCommand extends Command {

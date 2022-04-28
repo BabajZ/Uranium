@@ -1,7 +1,7 @@
 package me.alpha432.oyvey.features.modules.player;
 
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.InventoryUtil;
+import me.alpha432.oyvey.util.Player.InventoryUtil;
 import net.minecraft.item.ItemExpBottle;
 
 public class FastPlace extends Module {

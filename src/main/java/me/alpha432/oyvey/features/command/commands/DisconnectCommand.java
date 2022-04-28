@@ -1,7 +1,7 @@
 package me.alpha432.oyvey.features.command.commands;
 
 import me.alpha432.oyvey.features.command.Command;
-import me.alpha432.oyvey.util.oyvey.WorldUtil;
+import me.alpha432.oyvey.util.World.WorldUtil;
 
 /**
  * @author ligmaballz

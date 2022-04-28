@@ -3,7 +3,7 @@ package me.alpha432.oyvey.mixin.mixins;
 import me.alpha432.oyvey.features.modules.client.ClickGui;
 import me.alpha432.oyvey.features.modules.render.HandChams;
 import me.alpha432.oyvey.features.modules.render.SmallShield;
-import me.alpha432.oyvey.util.oyvey.ColorUtil;
+import me.alpha432.oyvey.util.Block.Render.ColorUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.renderer.GlStateManager;

@@ -2,8 +2,8 @@ package me.alpha432.oyvey.features.modules.combat;
 
 
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.BlockUtil;
-import me.alpha432.oyvey.util.oyvey.InventoryUtil;
+import me.alpha432.oyvey.util.Block.BlockUtil;
+import me.alpha432.oyvey.util.Player.InventoryUtil;
 import net.minecraft.item.ItemSkull;
 import net.minecraft.network.play.client.CPacketHeldItemChange;
 import net.minecraft.util.EnumHand;

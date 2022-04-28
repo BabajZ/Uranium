@@ -1,7 +1,7 @@
 package me.alpha432.oyvey.features.modules.render;
 
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.RenderUtils;
+import me.alpha432.oyvey.util.Block.Render.RenderUtils;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 

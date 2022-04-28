@@ -1,12 +1,9 @@
 package me.alpha432.oyvey.mixin.mixins;
 
 import me.alpha432.oyvey.OyVey;
-import me.alpha432.oyvey.event.events.RenderEntityModelEvent;
 import me.alpha432.oyvey.features.modules.client.ClickGui;
-import me.alpha432.oyvey.features.modules.render.PopChams;
-import me.alpha432.oyvey.features.modules.render.Skeleton;
 import me.alpha432.oyvey.features.modules.render.Wireframe;
-import me.alpha432.oyvey.util.oyvey.ColorUtil;
+import me.alpha432.oyvey.util.Block.Render.ColorUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.GlStateManager;
@@ -14,7 +11,6 @@ import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLivingBase;
 import net.minecraft.client.renderer.entity.RenderManager;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.MathHelper;
@@ -26,8 +22,6 @@ import org.lwjgl.opengl.GL11;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin({RenderLivingBase.class})
 public abstract class MixinRenderLivingBase<T extends EntityLivingBase> extends Render<T> {

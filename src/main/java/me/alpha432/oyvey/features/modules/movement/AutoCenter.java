@@ -2,8 +2,8 @@ package me.alpha432.oyvey.features.modules.movement;
 
 import me.alpha432.oyvey.OyVey;
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.EntityUtil;
-import me.alpha432.oyvey.util.oyvey.Timer;
+import me.alpha432.oyvey.util.World.EntityUtil;
+import me.alpha432.oyvey.util.World.Timer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 

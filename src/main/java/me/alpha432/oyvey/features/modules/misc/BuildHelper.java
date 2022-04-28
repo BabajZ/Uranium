@@ -3,7 +3,7 @@ package me.alpha432.oyvey.features.modules.misc;
 import me.alpha432.oyvey.event.events.JumpEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.MessageUtil;
+import me.alpha432.oyvey.util.Client.MessageUtil;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;

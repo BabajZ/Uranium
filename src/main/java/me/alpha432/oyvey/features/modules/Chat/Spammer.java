@@ -2,8 +2,8 @@ package me.alpha432.oyvey.features.modules.Chat;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.FileUtil;
-import me.alpha432.oyvey.util.oyvey.Timer;
+import me.alpha432.oyvey.util.Client.FileUtil;
+import me.alpha432.oyvey.util.World.Timer;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.network.play.client.CPacketChatMessage;
 import net.minecraft.util.StringUtils;

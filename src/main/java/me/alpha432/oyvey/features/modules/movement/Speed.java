@@ -2,10 +2,10 @@ package me.alpha432.oyvey.features.modules.movement;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.EntityUtil;
-import me.alpha432.oyvey.util.oyvey.MathUtil;
-import me.alpha432.oyvey.util.oyvey.PlayerUtil3;
-import me.alpha432.oyvey.util.oyvey.Timer;
+import me.alpha432.oyvey.util.World.EntityUtil;
+import me.alpha432.oyvey.util.Client.MathUtil;
+import me.alpha432.oyvey.util.Player.PlayerUtil3;
+import me.alpha432.oyvey.util.World.Timer;
 
 
 public class Speed extends Module {

@@ -3,7 +3,7 @@ package me.alpha432.oyvey.features.modules.combat;
 import me.alpha432.oyvey.features.command.Command;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.BurrowUtil;
+import me.alpha432.oyvey.util.Block.BurrowUtil;
 import net.minecraft.block.BlockAnvil;
 import net.minecraft.block.BlockEnderChest;
 import net.minecraft.block.BlockObsidian;

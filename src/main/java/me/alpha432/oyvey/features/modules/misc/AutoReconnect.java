@@ -2,8 +2,8 @@ package me.alpha432.oyvey.features.modules.misc;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.MathUtil;
-import me.alpha432.oyvey.util.oyvey.Timer;
+import me.alpha432.oyvey.util.Client.MathUtil;
+import me.alpha432.oyvey.util.World.Timer;
 import net.minecraft.client.gui.GuiDisconnected;
 import net.minecraft.client.multiplayer.GuiConnecting;
 import net.minecraft.client.multiplayer.ServerData;

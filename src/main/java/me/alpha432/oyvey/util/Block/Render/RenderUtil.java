@@ -1,8 +1,10 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.Block.Render;
 
 import me.alpha432.oyvey.OyVey;
 import me.alpha432.oyvey.features.modules.player.Speedmine;
 import me.alpha432.oyvey.util.Util;
+import me.alpha432.oyvey.util.World.EntityUtil;
+import me.alpha432.oyvey.util.Player.MotionUtil;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;

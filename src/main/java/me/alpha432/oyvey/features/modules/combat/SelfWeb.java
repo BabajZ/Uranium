@@ -3,11 +3,11 @@ package me.alpha432.oyvey.features.modules.combat;
 
 import com.mojang.realmsclient.gui.ChatFormatting;
 import me.alpha432.oyvey.features.modules.Module;
-import me.alpha432.oyvey.util.oyvey.BlockInteractionUtil;
-import me.alpha432.oyvey.util.oyvey.WorldUtil;
+import me.alpha432.oyvey.util.Block.BlockInteractionUtil;
+import me.alpha432.oyvey.util.World.WorldUtil;
 import me.alpha432.oyvey.features.command.Command;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.EntityUtil;
+import me.alpha432.oyvey.util.World.EntityUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;

@@ -6,7 +6,7 @@ import me.alpha432.oyvey.event.events.PushEvent;
 import me.alpha432.oyvey.event.events.UpdateWalkingPlayerEvent;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.setting.Setting;
-import me.alpha432.oyvey.util.oyvey.MathUtil;
+import me.alpha432.oyvey.util.Client.MathUtil;
 import net.minecraft.network.*;
 import net.minecraft.network.play.*;
 

@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.util.oyvey;
+package me.alpha432.oyvey.util.Client;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

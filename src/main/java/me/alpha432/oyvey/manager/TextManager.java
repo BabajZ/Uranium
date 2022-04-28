@@ -4,7 +4,7 @@ import me.alpha432.oyvey.OyVey;
 import me.alpha432.oyvey.features.Feature;
 import me.alpha432.oyvey.features.gui.font.CustomFont;
 import me.alpha432.oyvey.features.modules.client.FontMod;
-import me.alpha432.oyvey.util.oyvey.Timer;
+import me.alpha432.oyvey.util.World.Timer;
 import net.minecraft.util.math.MathHelper;
 
 import java.awt.*;
